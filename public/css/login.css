@@ -1,0 +1,124 @@
+.top_logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  .top_logo a img {
+    width: 100%;
+    max-width: 175px;
+  }
+  #login_form {
+    /* background: url(./bg_shape.png); */
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: white;
+  }
+  #login_form .form_heading h2 {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+  #login_form .form_wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  #login_form .form_heading p {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: black;
+    font-family: "Montserrat";
+    font-weight: 400;
+  }
+  #btn55{
+    padding: 1rem 1.563rem;
+  background: #2124B1!important;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  }
+  #login_form .input-group-text {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  #login_form .input-group-text svg {
+    width: 16px;
+  }
+  #login_form .input-group input {
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 1rem;
+    line-height: 1.188rem;
+    font-family: "Montserrat";
+    font-weight: 500;
+    height: auto;
+  }
+  #login_form .input-group {
+    padding: 0.625rem 1.125rem;
+    border: 0.5px solid #a1a1a5;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+  #login_form .input-group .label {
+    position: absolute;
+    top: -8px;
+    left: 21px;
+    padding: 0 0.25rem;
+    background: #fff;
+    font-size: 0.688rem;
+    line-height: 0.813rem;
+    color: #a1a1a5;
+  }
+  #login_form .input-group:focus {
+    border: 0.5px solid var(--p_blue);
+  }
+  #login_form .form-check {
+    margin-bottom: 28px;
+  }
+  #login_form .form-check .form-check-label {
+    font-size: 0.813rem;
+    line-height: 1rem;
+    color: #a1a1a5;
+    font-family: "Montserrat";
+    font-weight: 500;
+  }
+  #login_form .form-check .lost_pass {
+    font-size: 0.813rem;
+    line-height: 1rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: var(--p_blue);
+    float: right;
+    margin-top: 4px;
+  }
+  #login_form button[type="submit"] {
+    width: 100%;
+    background: var(--p_blue);
+    border: 1px solid var(--p_blue);
+    box-shadow: 0px 10px 20px rgb(8 52 115 / 16%);
+    border-radius: 8px;
+    padding: 1.5rem 0;
+    font-size: 1.125rem;
+    line-height: 1.375px;
+    font-family: "Montserrat";
+    font-weight: 600;
+  }
+  .bg_img img {
+    max-width: 620px;
+  }
